@@ -8,3 +8,6 @@ docker build --tag rdok/prisma-cli:latest
 docker build --file Dockerfile --tag rdok/prisma-cli:latest .
 docker push rdok/prisma-cli:latest
 ```
+
+## TODO
+Automate deployment either through GitHub, or through a Jenkins declarative pipeline.
